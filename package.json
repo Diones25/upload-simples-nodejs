@@ -2,18 +2,21 @@
   "name": "upload-de-arquivo-com-nodejs",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
-  "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.3.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.18",
+    "pg": "^8.11.0",
+    "sequelize": "^6.31.1"
   }
 }
